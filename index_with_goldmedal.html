@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sona Electric</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header, footer { background-color: #222; color: white; padding: 1rem; text-align: center; }
+    nav a { margin: 0 1rem; color: white; text-decoration: none; }
+    main { padding: 2rem; }
+    .product-card { background: white; padding: 1rem; margin: 1rem 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .buy-button { background: #28a745; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+    .buy-button:hover { background: #218838; }
+    .section-title { font-size: 1.5rem; margin-top: 2rem; }
+    .upi-box { background: #fff3cd; padding: 1rem; margin-top: 1rem; border-radius: 8px; border: 1px solid #ffeeba; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sona Electric</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#payment">Payment</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Sona Electric</h2>
+      <p>Your trusted source for quality electronic components and accessories.</p>
+    </section>
+
+    <section id="products">
+      <h2 class="section-title">Our Products</h2>
+      <div class="product-card">
+        <h3>Sample Product 1</h3>
+        <p>Description of the product goes here.</p>
+        <p><strong>Price:</strong> ₹199</p>
+        <button class="buy-button" onclick="location.href='#payment'">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <h3>Sample Product 2</h3>
+        <p>Description of another product.</p>
+        <p><strong>Price:</strong> ₹349</p>
+        <button class="buy-button" onclick="location.href='#payment'">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <h3>Switch Board – Goldmedal</h3>
+        <p>Premium modular switch board from Goldmedal with elegant design and durable quality.</p>
+        <p><strong>Price:</strong> ₹499</p>
+        <a href="https://wa.me/91YOUR_NUMBER?text=I'm%20interested%20in%20the%20Goldmedal%20Switch%20Board" target="_blank">
+          <button class="buy-button">Order Now on WhatsApp</button>
+        </a>
+      </div>
+      <p><em>You can add more products here by editing the HTML.</em></p>
+    </section>
+
+    <section id="payment">
+      <h2 class="section-title">Payment</h2>
+      <div class="upi-box">
+        <p><strong>UPI ID:</strong> abinashpramanick@ybl</p>
+        <p>Open your UPI app and send the payment to this ID.</p>
+        <p><em>You can add a QR code image here if needed.</em></p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Us</h2>
+      <p>Sona Electric is dedicated to providing high-quality electronics parts and accessories at affordable prices.</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>For inquiries, reach us via WhatsApp or email.</p>
+      <p><em>Add your WhatsApp number or email here.</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sona Electric. All rights reserved.</p>
+  </footer>
+</body>
+</html>
